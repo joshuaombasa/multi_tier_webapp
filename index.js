@@ -6,7 +6,7 @@ const port = 3000;
 // PostgreSQL connection
 const pool = new Pool({
   user: 'myappuser',
-  host: 'localhost',
+  host: '10.0.0.4',
   database: 'myappdb',
   password: 'MyPassword',
   port: 5432,
